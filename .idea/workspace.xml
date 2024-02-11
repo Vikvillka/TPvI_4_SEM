@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd33259-f220-464b-9042-02ec90c4ab7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/belstu/it/Bychkovskaya/basejava/JavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/belstu/it/Bychkovskaya/basejava/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/belstu/it/Bychkovskaya/basejava/TextFunctionNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2cEGGrAzHT1HGUsJzMr04QQtX01" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,12 +41,33 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "21",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="by.belstu.it.Bychkovskaya.basejava" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JavaTest">
+    <configuration name="JavaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.belstu.it.Bychkovskaya.basejava.JavaTest" />
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.belstu.it.Bychkovskaya.basejava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="by.belstu.it.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.belstu.it.Main" />
       <module name="Lab2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,11 +75,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JavaTest" />
+        <item itemvalue="Application.by.belstu.it.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="class $Class$ {&#10;  $ReturnType$ $Method$…" created="1707672252976" uuid="43059b20-dd39-3a34-959f-7ec494adfcad" text="class $Class$ {&#10;  $ReturnType$ $Method$ ($ParameterType$ $Parameter$);&#10;}" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="Class" script="&quot;!__context__.interface &amp;&amp; !__context__.enum &amp;&amp; !__context__.record&quot;" within="" contains="" />
+      <constraint name="ReturnType" within="" contains="" />
+      <constraint name="Method" withinHierarchy="true" maxCount="2147483647" target="true" within="" contains="" />
+      <constraint name="ParameterType" within="" contains="" />
+      <constraint name="Parameter" minCount="0" maxCount="2147483647" within="" contains="" />
+    </searchConfiguration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1fd33259-f220-464b-9042-02ec90c4ab7d" name="Changes" comment="" />
@@ -57,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707669234370</updated>
       <workItem from="1707669235938" duration="67000" />
+      <workItem from="1707670273084" duration="10834000" />
     </task>
     <servers />
   </component>
@@ -73,5 +116,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="i" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
